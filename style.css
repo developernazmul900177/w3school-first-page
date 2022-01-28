@@ -1,0 +1,597 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+}
+.header{
+    width: 90%;
+    background-color: #fff;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.header .logo{
+    width: 10%;
+    float: left;
+    margin-top: 10px;
+}
+.header .menu{
+    width: 40%;
+    float: left;
+    margin-top: 10px;
+}
+.header .menu ul li{
+    float: left;
+
+}
+.header .menu ul li a{
+    padding: 12px;
+    display: block;
+    font-size: 18px;
+}
+
+.header .menu ul li a:hover{
+    background-color: green;
+    color: white;
+}
+
+
+.head{
+    display: none;
+    background-color: tomato;
+    width: 400px;
+    margin-top: 10px;
+    
+}
+.head a{
+    color: white;
+}
+.head h1{
+    color: blue;
+}
+.box1{
+    width: 33.33%;
+    float: left;
+    color: white;
+}
+.box2{
+    width: 33.33%;
+    float: left;
+}
+.box3{
+    width: 33.33%;
+    float: left;
+}
+
+.header .menu ul li:hover .head{
+    display: block;
+    position: absolute;
+}
+
+
+
+.header .menu button{
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: white;
+}
+.header .last{
+    width: 40%;
+    float: right;
+
+}
+.header .last1{
+    margin-top: 20px;
+    float: left;
+    
+}
+.header .last1 a{
+    padding: 20px 10px;
+}
+.header .last2{
+    float: right;
+    margin-top: -20px;
+}
+.header .last2 ul li{
+    float: left;
+}
+.header .last2 ul li a{
+    font-size: 18px;
+    padding: 0px 10px;
+    color: #000;
+}
+.header .last  .btn1{
+ 
+    border-radius: 20px;
+    padding: 11px;
+    background-color: rgb(233, 142, 142);
+}
+.header .last .in_btn1{
+    background-color: #fff;
+    padding: 5px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    align-items: center;
+}
+.header .last .btn3{
+    padding: 10px 35px;
+    border-radius: 20px;
+    background-color: rgb(13, 206, 13);
+    color: white;
+}
+.header .last2 a:hover{
+    background-color: green;
+    color: white;
+}
+.header .last2 .btn2:hover{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+
+}
+
+/* Header end  */
+.second{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(67, 50, 87);
+}
+.textarea{
+    color: white;
+    text-align: center;
+    margin-bottom: 0 auto;
+    padding: 130px 0px;
+    
+}
+.second .textarea h1{
+    font-size: 60px;
+}
+.second .textarea p{
+    color: pink;
+    font-size: 20px;
+    margin: 20px;
+}
+.second .textarea .search1{
+    padding: 15px;
+    width: 400px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.second .textarea .search2{
+    padding: 14px 45px;
+    width: 100px;
+    margin-left: -110px;
+    background-color: rgb(43, 153, 43);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: -5px;
+    color: white;
+}
+.second .underline{
+    padding: 20px 0px;
+}
+.second .underline a{
+    text-decoration: underline;
+    color: #fff;
+    font-size: 20px;
+}
+/* Second End  */
+
+.wrapper{
+    width: 1140px;
+    height: 500px;
+    margin: 0 auto;
+    
+}
+.wrapper::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+/* Third start  */
+
+.full-third{
+    width: 100%;
+    background-color: #D9EEE1;
+}
+.all-btn{
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.third-btn1{
+    background-color: #059862;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+.third-btn2{
+    background-color: #cabe65;
+    color: #000;
+    font-size: 20px;
+    border: none;
+}
+.third-btn3{
+    background-color: #000000;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+}
+.third-button{
+    margin-top: 40px;
+}
+.third-button a{
+    display: block;
+    width: 220px;
+}
+.third1{
+    margin-left: 200px;
+    width: 50%;
+    float: left;
+}
+.third1 h1{
+    font-size: 60px;
+    padding: 100px 0px;
+}
+.third1 p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -100px;
+}
+.third2{
+    width: 50%;
+    float: right;
+    
+}
+.third2 .third2-bg{
+    width: 400px;
+    height: 320px;
+    background-color: white;
+    margin-top: -300px;
+}
+
+
+.third-btn1:hover{
+    background-color: #034b30;
+}
+
+.third-btn2:hover{
+    background-color: #FFF080;
+}
+.third-btn3:hover{
+    background-color: transparent;
+    color: #000;
+}
+.full-forth{
+    width: 100%;
+    background-color: #FFF4A3;
+}
+
+.full-fifth{
+    width: 100%;
+    background-color: #282A35;
+    color: white;
+}
+.full-sisth{
+    width: 100%;
+    background-color: #96D4D4;
+}
+
+
+
+.part2-area{
+    width: 100%;
+    height: auto;
+    background-color: #282A35;
+}
+.part2-area .part1{
+    width: 45%;
+    height: 300px;
+    float: left;
+    background-color: #FFC0C7;
+    padding: 60px 140px;
+    text-align: center;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+.part2-area a{
+    display: block;
+    margin-top: 30px;
+}
+.part1-btn{
+    background-color: rgb(26, 25, 25);
+    
+}
+.part1-btn:hover{
+    background-color: rgb(2, 2, 2);
+}
+.part2-area .part1 h1{
+    font-size: 40px;
+}
+.part2-area .part1 p{
+    font-size: 20px;
+    margin: 20px 0px;
+}
+.part2-area .part2{
+    width: 45%;
+    height: 300px;
+    float: right;
+    background-color: #FFF4A3;
+    padding: 60px 140px;
+    text-align: center;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+.part2-area .part21{
+    background-color: #F3ECEA;
+}
+.part2-area .part22{
+    background-color: #D9EEE1;
+}
+.part2-area .part31{
+    background-color: #96D4D4;
+}
+.part2-area h1{
+    font-size: 40px;
+}
+
+.part2-area .part41{
+    width: 21%;
+    height: 150px;
+    background-color: #FFC0C7;
+    float: left;
+    border-radius: 10px;
+    
+}
+.part2-area .part41 h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.part2-area .part42{
+    width: 21%;
+    height: 150px;
+    background-color: #FFF4A3;
+    float: left;
+    margin-left: 60px;
+    border-radius: 10px;
+}
+.part2-area .part42 h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.part2-area .part43{
+    width: 21%;
+    height: 150px;
+    background-color: #F3ECEA;
+    float: left;
+    margin-left: 60px;
+    border-radius: 10px;
+
+}
+.part2-area .part43 h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.part2-area .part44{
+    width: 21%;
+    height: 150px;
+    background-color: #D9EEE1;
+    float: right;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+.part2-area .part44 h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.second_part2{
+    margin-top: -250px;
+}
+
+.part2-area .part51{
+    width: 47%;
+    height: 120px;
+    background-color: #04AA6D;
+    float: left;
+    border-radius: 10px;
+}
+
+.part2-area .part52{
+    width: 47%;
+    height: 120px;
+    background-color: green;
+    float: right;
+    border-radius: 10px;
+    
+}
+.part2-area .part51 h1{
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+}
+
+.part2-area .part52 h1{
+    text-align: center;
+    margin-top: 40px;
+    
+}
+.part2-area .part53{
+    width: 47%;
+    height: 120px;
+    background-color: #FFC0C7;
+    float: left;
+    border-radius: 10px;
+}
+.part2-area .part53 h1{
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+.part2-area .part54{
+    width: 47%;
+    height: 120px;
+    background-color: #F3ECEA;
+    float: right;
+    border-radius: 10px;
+}
+.part2-area .part54 h1{
+    text-align: center;
+    margin-top: 40px;
+    
+}
+.picker{
+    width: 100%;
+    display: block;
+    background-color: white;
+    
+}
+.color-picker{
+    
+    margin-left: 400px;
+    margin-top: 200px;
+    
+}
+.picker h1{
+    font-size: 60px;
+}
+.picker p{
+    color: #000;
+    font-size: 20px;
+    padding: 20px 0px;
+}
+.picker img{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.stylearea{
+    width: 100%;
+    background-color: #96D4D4;;
+}
+.stylearea .stylearea-text{
+    margin-left: 500px;
+    padding:200px 0px;
+}
+.stylearea-text h1{
+    font-size: 60px;
+}
+.stylearea-text p{
+    font-size: 30px;
+    margin: 30px 0px;
+}
+.stylearea-text img{
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
+.stylearea-text .lastmy{
+    color: #fff;
+    margin-left: -130px;
+   
+}
+
+
+#footer{
+    
+    widows: 100%;
+    height: auto;
+    background-color: #282A35;
+}
+#footer .footer-btn-area{
+    padding: 20px 60px;
+    
+}
+.lastf{
+    padding: 15px 20px;
+    color: black;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.linking{
+   
+    width: 20%;
+    float: right;
+    margin-top: -50px;
+}
+.linking h3{
+    display: inline-block;
+    letter-spacing: 5px;
+    color: white;
+}
+.linking a{
+    color: white;
+}
+.linking a:hover{
+    color: green;
+}
+.font-awesomelast{
+    margin-left: 1000px;
+}
+.font-awesomelast a{
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    
+}
+.font-awesomelast a:hover{
+    font-size: 25px;
+    
+}
+
+.lastmypara p{
+    color: white;
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-right: 20px;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.lastmypara a{
+    color: white;
+    text-decoration: underline;
+    
+}
+.lastmypara .copy{
+    margin-left: 500px;
+}
+.like a{
+    font-size: 50px;
+    color: white;
+    margin-left: 650px;
+}
+
+.last-buttonf .lastbtn{
+    width: 600px;
+    background-color: #0e8b5d;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    margin-left: 400px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.last-buttonf .lastbtn:hover{
+    background-color: green;
+}
